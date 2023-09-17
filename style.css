@@ -1,0 +1,40 @@
+#body{
+    font-family:'Times New Roman', 'Cambria','Arial';
+    position:relative;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    justify-content: flex-end;
+    background-color:#266150;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-bottom:solid #E8CEBF 5px;
+}
+.header-items{
+    display:flex;
+}
+.nav-item{
+    margin-right:1rem;
+    margin-top:0.5rem;
+}
+.last-nav{
+    margin-top:0.5rem;
+}
+#main-page{
+    text-align:center;
+}
+#contact-me{
+    text-align:center;
+    background-color:#E8CEBF;
+}
+#info-box{
+    display:block;
+    border:solid black 4px;
+    width:100px;
+    right:500px;
+}
